@@ -1,0 +1,62 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="br.edu.ifsc.exemplorecyclerview"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\SVN\ExemploRecyclerView\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\SVN\ExemploRecyclerView\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\SVN\ExemploRecyclerView\app\src\main\AndroidManifest.xml:5:5-24:19
+12        android:allowBackup="true"
+12-->C:\SVN\ExemploRecyclerView\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.1.0] C:\Users\Wilson\.gradle\caches\transforms-2\files-2.1\df2ac4fe6b88cbdd1c862077d2fdf1ec\core-1.1.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\SVN\ExemploRecyclerView\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->C:\SVN\ExemploRecyclerView\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\SVN\ExemploRecyclerView\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\SVN\ExemploRecyclerView\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->C:\SVN\ExemploRecyclerView\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity
+21-->C:\SVN\ExemploRecyclerView\app\src\main\AndroidManifest.xml:12:9-19:20
+22            android:name="br.edu.ifsc.exemplorecyclerview.MainActivity"
+22-->C:\SVN\ExemploRecyclerView\app\src\main\AndroidManifest.xml:12:19-47
+23            android:screenOrientation="portrait" >
+23-->C:\SVN\ExemploRecyclerView\app\src\main\AndroidManifest.xml:13:13-49
+24            <intent-filter>
+24-->C:\SVN\ExemploRecyclerView\app\src\main\AndroidManifest.xml:14:13-18:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->C:\SVN\ExemploRecyclerView\app\src\main\AndroidManifest.xml:15:17-69
+25-->C:\SVN\ExemploRecyclerView\app\src\main\AndroidManifest.xml:15:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\SVN\ExemploRecyclerView\app\src\main\AndroidManifest.xml:17:17-77
+27-->C:\SVN\ExemploRecyclerView\app\src\main\AndroidManifest.xml:17:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity
+30-->C:\SVN\ExemploRecyclerView\app\src\main\AndroidManifest.xml:21:9-113
+31            android:name="br.edu.ifsc.exemplorecyclerview.exemplocomactivity.RecyclerViewActivity"
+31-->C:\SVN\ExemploRecyclerView\app\src\main\AndroidManifest.xml:21:19-74
+32            android:screenOrientation="portrait" />
+32-->C:\SVN\ExemploRecyclerView\app\src\main\AndroidManifest.xml:21:75-111
+33        <activity
+33-->C:\SVN\ExemploRecyclerView\app\src\main\AndroidManifest.xml:22:9-120
+34            android:name="br.edu.ifsc.exemplorecyclerview.exemplocomfragment.FragmentRecyclerViewActivty"
+34-->C:\SVN\ExemploRecyclerView\app\src\main\AndroidManifest.xml:22:19-81
+35            android:screenOrientation="portrait" />
+35-->C:\SVN\ExemploRecyclerView\app\src\main\AndroidManifest.xml:22:82-118
+36    </application>
+37
+38</manifest>
