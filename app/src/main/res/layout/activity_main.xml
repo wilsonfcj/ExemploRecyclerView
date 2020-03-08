@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Para ficar mais simples está tela, mudamos de ConstraintLyout para LinearLayout-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+<!--    Dentro do escopo do LinearLayout vamos adicionar todos os componentes para o funcionamento de nossa tela. -->
+
+<!--    Para poder acessar um componente em nossa classe MainActivity, vamos precisar defifir um ID-->
+<!--    Esse ID deve ser unico por tela, caso tenha mais de um ID igual dará erro-->
+<!--    Neste componente vamos definir o seguinte ID @+id/button_activity_recycler_view-->
+<!--    Vamos alterar o texto do botão na propriedade text de Buttom para Activty Com RecyclerView-->
+    <Button
+        android:id="@+id/button_activity_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:text="Activty Com RecyclerView" />
+
+<!--    Para poder acessar um componente em nossa classe MainActivity, vamos precisar defifir um ID-->
+<!--    Esse ID deve ser unico por tela, caso tenha mais de um ID igual dará erro-->
+<!--    Neste componente vamos definir o seguinte ID @+id/button_fragment_recycler_view-->
+<!--    Vamos alterar o texto do botão na propriedade text de Buttom para Fragment Com RecyclerView-->
+    <Button
+        android:id="@+id/button_fragment_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:text="Fragment Com RecyclerView" />
+
+</LinearLayout>
